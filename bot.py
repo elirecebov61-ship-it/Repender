@@ -19,7 +19,7 @@ async def main():
                 try:
                     await app.send_message(member.user.id, message_text)
                     print(f"Mesaj göndərildi: {member.user.id}")
-                    await asyncio.sleep(10) # 1 dəqiqə gözləmə
+                    await asyncio.sleep(30) # 1 dəqiqə gözləmə
                 except Exception as e:
                     print(f"Xəta: {e}")
 
