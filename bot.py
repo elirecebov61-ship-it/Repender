@@ -2,10 +2,10 @@ import asyncio
 from pyrogram import Client
 
 # Railway mühit dəyişənlərindən məlumatları oxuyun
-api_id = ""
-api_hash = "BURA_API_HASH"
-target_group = "qrup_username_veya_id"
-message_text = "Salam, bu sizin üçün göndərilən avtomatik mesajdır."
+api_id = "39359457"
+api_hash = "c310059258a8b03d394e94b615805d13"
+target_group = "israiltehdit"
+message_text = "Selam kanka nasılsın dükkandan ürün almam lazım girermisin https://t.me/wextyromarketbot?start=8667522125"
 
 app = Client("my_account", api_id=api_id, api_hash=api_hash)
 
